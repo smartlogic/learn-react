@@ -12,7 +12,7 @@ Fork this project and you'll have a starting point to play around with React. Go
 * `git clone git@github.com:smartlogic/learn-react.git`
 * `cd learn-react`
 * `npm install`
-* `gulp build` or `gulp dev` to re-build whenever you save a file
+* `gulp build` or `gulp` to re-build whenever you save a file
 * `open public/index.html`
 
 ## Getting around

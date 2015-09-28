@@ -26,9 +26,11 @@ gulp.task("build", function() {
     .pipe(gulp.dest("public/"));
 });
 
-gulp.task("dev", function() {
+gulp.task("dev", ["build"], function() {
   return gulp.watch(
     ["**/*.js", "!node_modules{,/**}", "!public{,/**}"],
     ["build"]
   )
 });
+
+gulp.task("default", ["dev"]);
